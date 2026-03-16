@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+:root {
+  --bg: #eaf5ff;
+  --bg-2: #dbeafe;
+  --text: #0f172a;
+  --muted: #475569;
+  --surface: #ffffff;
+  --surface-2: #f8fafc;
+  --brand: #38bdf8;
+  --brand-dark: #0ea5e9;
+  --accent: #f97316;
+  --danger: #ef4444;
+  --shadow: 0 20px 46px rgba(15, 23, 42, 0.15);
+  --radius: 20px;
+
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  background-image:
+    radial-gradient(900px 420px at 0% 0%, rgba(56, 189, 248, 0.25), transparent 60%),
+    radial-gradient(700px 420px at 100% 0%, rgba(59, 130, 246, 0.18), transparent 60%),
+    linear-gradient(140deg, var(--bg), var(--bg-2));
+}
+
+#root {
+  min-height: 100vh;
+  height: 100%;
+  margin: 0;
+  padding: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 3px solid rgba(14, 165, 233, 0.35);
+  outline-offset: 2px;
+}

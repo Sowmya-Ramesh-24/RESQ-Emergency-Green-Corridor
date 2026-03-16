@@ -1,0 +1,30 @@
+# Dependencies (covers all folders)
+node_modules/
+
+# Environment variables (covers all folders)
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# ML artifacts
+backend/ml/traffic_model.pkl
+backend/ml/model_columns.pkl
+backend/ml/Metro_Interstate_Traffic_Volume.csv
+backend/ml/__pycache__/
+backend/ml/*.pyc
+
+# Python virtual env
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
