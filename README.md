@@ -93,14 +93,14 @@ Ambulance/
 ```
 ## Setup Instructions 
 1. Environment setup
-```
+```bash
 # Copy env templates for all three folders
 cp backend/.env.example backend/.env
 cp Ambulance_driver/.env.example Ambulance_driver/.env
 cp User/.env.example User/.env
 ```
 2. Backend Setup
-```
+```bash
 cd backend
 # Install Node dependencies (includes socket.io, mongoose, serialport)
 npm install
@@ -108,7 +108,7 @@ npm install
 node server.js
 ```
 3. ML service setup
-```
+```bash
 cd backend/ml
 # Install Python dependencies
 pip install -r requirements.txt
@@ -123,7 +123,7 @@ python train_model.py
 python app.py
 ```
 4. Ambulance Driver Frontend Setup
-```
+```bash
 cd Ambulance_driver
 
 # Install dependencies (includes socket.io-client, leaflet)
@@ -134,7 +134,7 @@ npm run dev
 ```
 
 5. User Driver Frontend Setup
-```
+```bash
 cd User
 
 # Install dependencies (includes socket.io-client, leaflet)
