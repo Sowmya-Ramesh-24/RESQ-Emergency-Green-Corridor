@@ -16,7 +16,7 @@ Powered through:
 │  - Live Map         │     Live Updates        │  - Proximity check  │
 │  - Route View       │                         │  - Junction phases  │
 └─────────────────────┘                         └─────────┬───────────┘
-                                                           │
+                                                          │
 ┌─────────────────────┐      WebSocket                    │
 │     Road User       │ ◄─────────────────────────────────┤
 │  (React + Leaflet)  │                                   │ TCP Commands
