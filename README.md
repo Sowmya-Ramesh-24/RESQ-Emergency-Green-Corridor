@@ -9,13 +9,13 @@ Powered through:
 ---
 ```
 ┌─────────────────────┐      UDP Stream         ┌─────────────────────┐
-│   Ambulance Driver  │   (WebSocket/HTTP)       │   Node.js Backend   │
+│   Ambulance Driver  │   (WebSocket/HTTP)      │   Node.js Backend   │
 │  (React + Leaflet)  │ ──────────────────────► │  Express + Socket   │
-│                     │                          │                     │
+│                     │                         │                     │
 │  - SOS Button       │ ◄────────────────────── │  - Route tracking   │
-│  - Live Map         │     Live Updates         │  - Proximity check  │
-│  - Route View       │                          │  - Junction phases  │
-└─────────────────────┘                          └─────────┬───────────┘
+│  - Live Map         │     Live Updates        │  - Proximity check  │
+│  - Route View       │                         │  - Junction phases  │
+└─────────────────────┘                         └─────────┬───────────┘
                                                            │
 ┌─────────────────────┐      WebSocket                    │
 │     Road User       │ ◄─────────────────────────────────┤
