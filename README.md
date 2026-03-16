@@ -161,7 +161,7 @@ npm run dev -- --port 5174
 | Backend | Node.js, Express, Socket.io, MongoDB |
 | ML Service | Python, Flask, scikit-learn, RandomForest |
 | Hardware | ESP32, Arduino, SerialPort |
-| Maps | OpenStreetMap, Nominatim |
+| Coordinates| Geojson.io |
 
 ## Notes
 - Route paths are GeoJSON files in backend/data/ — edit to change the simulated route
