@@ -1,4 +1,5 @@
-# RESQ An AI-powered traffic management system that clears signal corridors for ambulances and alerts nearby road users in real time, through:
+# RESQ An AI-powered emergency green corridor
+Powered through:
 - Automatic green corridor with phase-based traffic signal control
 - Real-time user alerts with distance tracking when ambulance is within 1km
 - ML-predicted green times based on live traffic volume data
